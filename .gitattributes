@@ -1,0 +1,2 @@
+# LF everywhere so files bind-mounted into Linux containers behave the same on Windows.
+* text=auto eol=lf

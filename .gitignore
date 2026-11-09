@@ -1,0 +1,32 @@
+# Secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local verification scratch: temporary databases and agent/browser state
+codex-*/
+.playwright-cli/
+.claude/settings.local.json
+graphify-out/
+/output/
+
+# Tooling and OS
+coverage/
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

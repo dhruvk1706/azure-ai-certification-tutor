@@ -1,0 +1,8 @@
+{
+  "name": "azure-ai-certification-tutor",
+  "private": true,
+  "license": "Apache-2.0",
+  "workspaces": [
+    "frontend"
+  ]
+}

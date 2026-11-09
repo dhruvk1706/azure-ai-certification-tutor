@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <!-- No icon file yet: an empty one stops the browser requesting /favicon.ico. -->
+    <link rel="icon" href="data:," />
+    <title>Azure AI Certification Tutor</title>
+    <script>
+      // Set the theme before the first paint, so a dark page never flashes white.
+      // The same rule lives in ThemeSelect in src/App.tsx.
+      try {
+        var saved = localStorage.getItem("tutor.theme");
+        var dark =
+          saved === "dark" ||
+          (saved !== "light" &&
+            matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
