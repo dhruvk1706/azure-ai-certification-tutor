@@ -6,7 +6,9 @@ An open-source tutor for Azure AI certification exams.
 
 Practice questions are written by AI and checked against Microsoft Learn text. They are not official Microsoft certification questions, and practice scores do not predict an exam result.
 
-This is an independent project, not affiliated with or endorsed by Microsoft.
+This is an independent project, not affiliated with or endorsed by Microsoft. Microsoft, Azure and Microsoft Learn are trademarks of the Microsoft group of companies.
+
+It is built to run locally and is not hardened for the internet. See [SECURITY.md](SECURITY.md).
 
 ## Stack
 

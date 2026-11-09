@@ -4,5 +4,8 @@
   "license": "Apache-2.0",
   "workspaces": [
     "frontend"
-  ]
+  ],
+  "overrides": {
+    "minimatch": "^11.0.5"
+  }
 }

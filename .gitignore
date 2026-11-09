@@ -19,7 +19,7 @@ __pycache__/
 # Local verification scratch: temporary databases and agent/browser state
 codex-*/
 .playwright-cli/
-.claude/settings.local.json
+.claude/
 graphify-out/
 /output/
 
